@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             displayTextView.textSize = size.toFloat()
         }
         // Todo (Step 3: Pass lambda to adapter)
-        recyclerView.adapter = NumberDisplayAdapter(numbers)
+        recyclerView.adapter = NumberDisplayAdapter(numbers, callBack)
 
 
     }
